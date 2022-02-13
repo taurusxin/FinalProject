@@ -1,28 +1,23 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <header>
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="45" height="45" />
+  </header>
+
+  <RouterView />
 </template>
 
-<style lang="scss">
+<style>
+@import '@/assets/base.css';
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  font-weight: normal;
 }
 </style>
