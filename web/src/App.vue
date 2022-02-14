@@ -1,23 +1,32 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Nav from './components/Nav.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="45" height="45" />
-  </header>
-
-  <RouterView />
+  <el-container>
+    <el-header class="header">
+      <Nav></Nav>
+    </el-header>
+    <router-view></router-view>
+  </el-container>
 </template>
 
 <style>
 @import '@/assets/base.css';
 
+body {
+  background-color: var(--color-background-soft);
+}
+
 #app {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 2rem;
 
   font-weight: normal;
+}
+
+.header {
+  background-color: var(--color-background);
 }
 </style>
