@@ -15,9 +15,9 @@ import AnnouncementItem from '../components/home/announcement/AnnouncementItem.v
       <div class="post-listn">
         <PostItem text="Welcome to CUForum" author="Alice"></PostItem>
         <PostItem text="test post 2" author="Bob"></PostItem>
-        <PostItem text="test post 3"></PostItem>
-        <PostItem text="test post 4"></PostItem>
-        <PostItem text="test post 5"></PostItem>
+        <PostItem text="test post 3" author="Charlie"></PostItem>
+        <PostItem text="test post 4" author="Dogie"></PostItem>
+        <PostItem text="test post 5" author="Ed Sheeran"></PostItem>
       </div>
     </div>
 
