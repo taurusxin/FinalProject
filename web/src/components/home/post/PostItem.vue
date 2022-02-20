@@ -16,6 +16,7 @@ defineProps({
   },
   media: String
 })
+
 </script>
 
 <template>
@@ -36,11 +37,12 @@ defineProps({
 </template>
 
 <style>
+
 .post-item {
   padding: 1.3rem;
 
   border-radius: 4px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--color-border);
   background-color: var(--color-background);
   margin: 0.8rem 0;
 }
@@ -59,17 +61,17 @@ defineProps({
 .info-container {
   display: flex;
   flex-direction: column;
-  height: 45px;
+  height: 3rem;
   justify-content: center;
 }
 
 .author {
   font-weight: bold;
-  line-height: 15px;
+  line-height: 1rem;
 }
 
 .datetime {
-  line-height: 15px;
+  line-height: 1rem;
   color: rgb(151, 151, 151);
 }
 
