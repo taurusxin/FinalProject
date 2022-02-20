@@ -34,6 +34,7 @@ import AnnouncementItem from '../components/home/announcement/AnnouncementItem.v
 </template>
 
 <style scoped>
+
 .home {
   display: flex;
   flex-direction: row;
@@ -43,7 +44,7 @@ import AnnouncementItem from '../components/home/announcement/AnnouncementItem.v
 
 .box-common {
   border-radius: 4px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid var(--color-border);
   background-color: var(--color-background);
 }
 
