@@ -13,10 +13,10 @@ import AnnouncementItem from '../components/home/announcement/AnnouncementItem.v
         <PostInput></PostInput>
       </div>
       <div class="post-listn">
-        <PostItem text="Welcome to CUForum" author="Alice"></PostItem>
-        <PostItem text="test post 2" author="Bob"></PostItem>
-        <PostItem text="test post 3" author="Charlie"></PostItem>
-        <PostItem text="test post 4" author="Dogie"></PostItem>
+        <PostItem text="Welcome to CUForum" author="TaurusXin"></PostItem>
+        <PostItem text="你好， 世界" author="Alice"></PostItem>
+        <PostItem text="Hello world" author="Bob"></PostItem>
+        <PostItem text="test post 4" author="Charlie"></PostItem>
         <PostItem text="test post 5" author="Ed Sheeran"></PostItem>
       </div>
     </div>

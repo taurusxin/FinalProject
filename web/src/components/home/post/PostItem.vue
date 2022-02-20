@@ -49,7 +49,7 @@ onMounted(() => {
     </div>
 
     <div class="post-media">
-      <img class="post-media-item" v-for="media in medias" :src="media" :key="media.id" />
+      <img class="post-media-item" v-for="media in medias" :key="media.id" :src="media" />
     </div>
 
   </div>
@@ -106,6 +106,7 @@ onMounted(() => {
   display: inline-block;
   width: 200px;
   height: 200px;
+  object-fit: cover;
 
   &:only-child {
     width: 240px;
@@ -152,6 +153,5 @@ onMounted(() => {
   &:nth-child(4):last-child {
     border-radius: 0 0 6px 0;
   }
-
 }
 </style>
